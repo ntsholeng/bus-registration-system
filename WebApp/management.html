@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bus Management System</h1>
+        <h2>Add New Bus</h2>
+        <form id="add-bus-form">
+            <label for="add-bus-number">Bus Number:</label>
+            <input type="text" id="add-bus-number" name="add-bus-number" required>
+            
+            <label for="add-route">Route:</label>
+            <select id="add-route" name="add-route" required>
+                <option value="1">Route A</option>
+                <option value="2">Route B</option>
+                <!-- Add other routes as needed -->
+            </select>
+            
+            <label for="bus-type">Type:</label>
+            <select id="bus-type" name="bus-type" required>
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+            </select>
+            
+            <button type="submit">Add Bus</button>
+        </form>
+        
+        <!-- Additional management functionalities and reports can be added here -->
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
